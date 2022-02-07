@@ -1,0 +1,19 @@
+[
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:charcoal\"}}]}}"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "nbt": "{Offers:{Recipes:[{buy:{id:\"minecraft:coal\"}}]}}"
+    }
+  }
+]

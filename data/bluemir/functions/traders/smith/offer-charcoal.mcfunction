@@ -1,0 +1,2 @@
+#execute run data modify entity @s Offers.Recipes append value {buyB:{id:"minecraft:air",Count:0},buy:{id:"minecraft:charcoal",Count:15},sell:{id:"minecraft:emerald",Count:1},xp:2,rewardExp:1b,maxUses:16}
+execute run data modify entity @s Offers.Recipes insert 1 value {buyB:{id:"minecraft:air",Count:0},buy:{id:"minecraft:charcoal",Count:15},sell:{id:"minecraft:emerald",Count:1},xp:2,rewardExp:1b,maxUses:16}
